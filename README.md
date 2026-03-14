@@ -1,5 +1,11 @@
 # Activity 7 – Robotics School Platform
 
+## Project Name
+
+**Activity 7 – Robotics School Platform**
+
+---
+
 ## Project Description
 
 This project is a web platform built with **Laravel 7** and **Eloquent ORM**, developed for a small robotics school. The system allows teachers to manage courses, groups, and students. All users (students, teachers and administrators) have an account on the platform and can interact with the available courses.
@@ -9,7 +15,7 @@ This project is a web platform built with **Laravel 7** and **Eloquent ORM**, de
 - Group assignment for students (beginner, intermediate, advanced)
 - Course management with robotics kit association
 - Many-to-many relationship between groups and courses
-- 100 seeded fake courses for development/testing
+- 100 seeded fake courses for development/testing (via FakerPHP factory)
 
 ---
 
@@ -98,4 +104,3 @@ php artisan db:seed
 - MySQL 8
 - Eloquent ORM
 - FakerPHP (for factories)
-## Homework 6 completado
